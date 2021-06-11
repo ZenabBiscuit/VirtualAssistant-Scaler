@@ -23,4 +23,4 @@
 - Now run the project using the command: _python virtAssis.py_
 
 **Important:**
-In line 38 of the file virtAssis.py, replace "YOUR_API_KEY" with your api key from https://openweathermap.org/api
+In line 37 of the file virtAssis.py, replace "YOUR_API_KEY" with your api key from https://openweathermap.org/api
