@@ -18,5 +18,5 @@
 **How to run:**
 - This project uses Python 3.8.5
 - The project dependencies are listed in requirements.txt file.
-- Run the following command in command prompt: pip install -r requirements.txt
-- Now run the project using the command: python virtAssis.py
+- Run the following command in command prompt: _pip install -r requirements.txt_
+- Now run the project using the command: _python virtAssis.py_
