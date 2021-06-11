@@ -21,3 +21,6 @@
 - The project dependencies are listed in requirements.txt file.
 - Run the following command in command prompt: _pip install -r requirements.txt_
 - Now run the project using the command: _python virtAssis.py_
+
+**Important:**
+In line 38 of the file virtAssis.py, replace "YOUR_API_KEY" with your api key from https://openweathermap.org/api
