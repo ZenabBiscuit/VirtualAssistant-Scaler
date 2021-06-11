@@ -20,18 +20,17 @@ def speakUp(text):
     engine.runAndWait()
 
 def listenToUser():
-    command = input()
 
-    # try:
-    #     with specRec.Microphone() as source:
-    #         speakUp('How may I help you?')
-    #         print('Listening...')
-    #         voice = listener.listen(source)
-    #         command = listener.recognize_google(voice)
-    #         command = command.lower()
-    #         print(command)
-    # except:
-    #     pass
+    try:
+        with specRec.Microphone() as source:
+            speakUp('How may I help you?')
+            print('Listening...')
+            voice = listener.listen(source)
+            command = listener.recognize_google(voice)
+            command = command.lower()
+            print('Your Command: ', command)
+    except:
+        pass
     return command
 
 def getWeather(city_name):
@@ -58,7 +57,6 @@ def checkInternetConnection():
     return False  
 
 def runVirtualAssistant():
-    print('Your command: ', end='')
     command = listenToUser()
     #print(command)
 
@@ -180,7 +178,7 @@ def runVirtualAssistant():
 
     #tell everything it can do
     if 'what can you do' in command:
-        speak = 'I can do lots of things like \nOpen a webpage, \nPlay a song on youtube, \nTell weather or temperature of a place, \nSeach about anything on google, \nTell todays date, \nTell current time, \nCheck internet speed, \nCheck internet availability, \nSearch latest news, \nSpell a word, \nTell memory usage.'
+        speak = 'I can do lots of things like \nOpen a webpage, \nPlay a song on youtube, \nTell weather or temperature of a place, \nSearch about anything on google, \nTell todays date, \nTell current time, \nCheck internet speed, \nCheck internet availability, \nSearch latest news, \nSpell a word, \nTell memory usage.'
         print('Virtual Assistant: ', speak)
         speakUp(speak)
 
