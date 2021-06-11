@@ -12,8 +12,9 @@
 7. Check internet speed
 8. Check internet availability
 9. Search latest news
-10. Tell the user what all it can do
+10. Spell a word
 11. Tell memory usage
+12. Tell the user what all it can do
 
 **How to run:**
 - This project uses Python 3.8.5
