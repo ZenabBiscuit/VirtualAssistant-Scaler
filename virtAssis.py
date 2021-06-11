@@ -35,7 +35,7 @@ def listenToUser():
     return command
 
 def getWeather(city_name):
-    api_key = "646366064ca35686ff19c4ff1b000418"
+    api_key = "YOUR_API_KEY"
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
     complete_url = base_url + "appid=" + api_key + "&q=" + city_name
    
