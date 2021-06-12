@@ -4,8 +4,6 @@ import pywhatkit
 import os, psutil
 import sys
 import webbrowser
-import python_weather
-import asyncio
 import requests, json
 import datetime
 import pytz 
