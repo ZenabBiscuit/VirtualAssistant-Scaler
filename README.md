@@ -17,10 +17,14 @@
 12. Tell the user what all it can do
 
 **Libraries Used:**
-- SpeechRecognition: Library for performing speech recognition, with support for several engines and APIs, online and offline.
-- pyttsx3: Text to Speech (TTS) library for Python 2 and 3. Works without internet connection or delay. Supports multiple TTS engines, including Sapi5, nsss, and espeak.
-- pywhatkit: It is a python library that performs various functions like playing on youtube, searching on internet, sending a whatsapp message, converting images to handwriting etc.
-- speedtest-cli: Command line interface for testing internet bandwidth using speedtest.net
+- _SpeechRecognition:_ Library for performing speech recognition, with support for several engines and APIs, online and offline.
+- _pyttsx3:_ Text to Speech (TTS) library for Python 2 and 3. Works without internet connection or delay. Supports multiple TTS engines, including Sapi5, nsss, and espeak.
+- _pywhatkit:_ It is a python library that performs various functions like playing on youtube, searching on internet, sending a whatsapp message, converting images to handwriting etc.
+- _speedtest-cli:_ Command line interface for testing internet bandwidth using speedtest.net
+- _OpenWeather API:_ For each point on the globe, OpenWeather provides historical, current and forecasted weather data via light-speed APIs.
+
+**Demo Video:**
+https://drive.google.com/drive/folders/1SzNKt7E8cOK0yTjx1P_fmy1rWC3sRGt2?usp=sharing
 
 **How to run:**
 - This project uses Python 3.8.5
